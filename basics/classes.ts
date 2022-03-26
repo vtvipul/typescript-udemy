@@ -22,17 +22,35 @@
 
 // console.log(car.color)
 
-class Parent {
-	constructor(public someVar: string) {}
-}
+// class Parent {
+// 	constructor(public someVar: string) {}
+// }
 
-class Child extends Parent{
-    constructor(someVar:string, public someOtherVar:string){
-        super(someVar)
-    }
-}
+// class Child extends Parent{
+//     constructor(someVar:string, public someOtherVar:string){
+//         super(someVar)
+//     }
+// }
 
-const child = new Child("SomeVariableInitialized...", "someOtherVariableInitialized...")
+// const child = new Child("SomeVariableInitialized...", "someOtherVariableInitialized...")
 
-console.log(child.someVar, child.someOtherVar)
+// console.log(child.someVar, child.someOtherVar)
 
+// class One {
+// 	one: string;
+// 	two: number;
+// 	three: boolean;
+// 	four: (number | string)[];
+// }
+
+// class Two {
+// 	two: number;
+// 	five: string;
+// 	six: number[];
+// }
+
+// class Three {
+// 	constructor(obj: One | Two) {
+//         console.log(obj.six)
+//     }
+// }

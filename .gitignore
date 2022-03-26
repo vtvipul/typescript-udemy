@@ -1,2 +1,4 @@
 node_modules/
 basics/fetchjson/node_modules/
+app-1_map/.cache
+app-1_map/node_modules
