@@ -7,29 +7,29 @@
 
 let apples = 5; // if we have declaration and assignment in the same line then we don't need
 // type annotations
-let speed = "speed";
-let hasName = true;
-let nothingMuch = null;
-let nothing = undefined;
+// let speed = "speed";
+// let hasName = true;
+// let nothingMuch = null;
+// let nothing = undefined;
 
-// built in objects
-let now: Date = new Date();
+// // built in objects
+// let now: Date = new Date();
 
-// arrays
-let colors: string[] = ["red", "green", "blue"];
-let ages: number[] = [1, 2, 3];
-let truths: boolean[] = [true, false, true];
+// // arrays
+// let colors: string[] = ["red", "green", "blue"];
+// let ages: number[] = [1, 2, 3];
+// let truths: boolean[] = [true, false, true];
 
-// classes
-class Car {}
+// // classes
+// class Car {}
 
-let car: Car = new Car();
+// let car: Car = new Car();
 
-// object literals
-let point: { x: number; y: number } = {
-	x: 10,
-	y: 9,
-};
+// // object literals
+// let point: { x: number; y: number } = {
+// 	x: 10,
+// 	y: 9,
+// };
 
 // functions
 const logNumber: (i: number) => void = (i) => {
