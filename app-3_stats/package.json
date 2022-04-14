@@ -1,0 +1,21 @@
+{
+	"name": "app-3_stats",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start:build": "tsc -w",
+		"start:run": "nodemon build/index.js",
+		"start": "concurrently npm:start:*"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"concurrently": "^7.1.0",
+		"nodemon": "^2.0.15"
+	},
+	"dependencies": {
+		"@types/node": "^17.0.23"
+	}
+}
